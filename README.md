@@ -1,44 +1,122 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h2 align="center">
+    <img alt="Proffy" title="#Proffy" src=".github/logo.png" width="350px" />
+</h2>
+  
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/lucsbasto/Proffy?color=%2304D361">
 
-## Available Scripts
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/lucsbasto/Proffy">
 
-In the project directory, you can run:
+  	
+  <a href="https://www.linkedin.com/in/lucsbasto/">
+    <img alt="Made by lucsbasto" src="https://img.shields.io/badge/made%20by-lucsbasto-%2304D361">
+  </a>
+	
+  
+  <a href="https://github.com/lucsbasto/Proffy/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/lucsbasto/Proffy">
+  </a>
 
-### `yarn start`
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+   <a href="https://github.com/lucsbasto/Proffy/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/lucsbasto/Proffy?style=social">
+  </a>
+</p>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<h2 align="center">
+    <img alt="Proffy" title="#Proffy" src=".github/Proffy-responsivo.png" width="350px" />
+</h2>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `yarn test`
+## 📝 Conteúdo
+<p align="center">
+<a href="#about">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#getting_started">Iniciando</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#built_using">Tecnologias Utilizadas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#roadmap">Metas de desenvolvimento</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#contribute">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+</p>
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+## 🧐 Sobre <a name = "about"></a>
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Proffy é uma Aplicação feita durante a **NWL 2.0** oferecido pela [Rocketseat] :rocket:.<br/> 
+A aplicação visa estabelecer um contato entre alunos e professores. O professor ao se cadastrar, informa a matéria que deseja dar aula, os dias disponíveis e horários.
+Após isso os alunos podem encontrar esse professor buscando a matéria, dia e hora que batem com a do professor cadastrado.<br/> 
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<h2 align="center">
+    <img alt="Proffy" title="#GoBarber" src=".github/web.gif" width="100%" />
+</h2>
 
-### `yarn eject`
+## 🏁 Iniciando <a name = "getting_started"></a>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Instruções de como acessar as rotas e instalação.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### ⚒ Instalando <a name = "installing"></a>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```
+git clone https://github.com/lucsbasto/Proffy.git
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# Go into the backend repository
 
-## Learn More
+$ cd Proffy
+$ cd backend
+yarn
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Configure seu .env baseado no .env.example
+$ yarn knex:migrate
+$ yarn start
+# server inicializado
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# 💻 Iniciando com o Front-end
+$ cd web
+$ yarn
+$ yarn start
+
+# 📱 Iniciando com o Mobile 🚧 Em Construção...🚧
+
+$ cd mobile
+$ yarn
+$ yarn start
+```
+
+## ⛏️ Tecnologias Utilizadas <a name = "built_using"></a>
+
+- 🔵 [TypeScript][typescript]
+- 🟢 [Node Js][nodejs]
+- ❄️ [Knex][knex]
+- 🐘 [Postgres][postgres]
+- ⚛️ [React][reactjs]
+- 🔼 [Expo][expo]
+- ⚛️ [React Native][reactNative]
+- 💅 [Styled-components]
+
+## 👨‍💼 Metas de desenvolvimento <a name = "roadmap"></a>
+
+- Desenvolver o sistema de cadastro/login de usuário.
+- Desenvolver o sistema de cadastro de professores.
+- Desenvolver o sistema de filtro de professores por dia-materia-hora.
+- Desenvolver o sistema de conexão entre alunos e professores.
+- Desenvolver o sistema de alteração de dados do usuario.
+
+## 🤔 Como contribuir <a name = "contribute"></a>
+
+- Faça um fork desse repositório;
+- Cria uma branch com a sua feature: `git checkout -b minha-feature`;
+- Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
+- Faça push para a sua branch: `git push origin minha-feature`.
+
+Feito com ❤️ por Lucas Bastrp 👋🏽 [Entre em contato!](https://www.linkedin.com/in/lucsbasto/)
+
+[expo]: https://expo.io/
+[knex]:http://knexjs.org/
+[postgres]: https://www.postgresql.org/
+[nodejs]: https://nodejs.org/en/
+[typescript]: https://www.typescriptlang.org/
+[reactjs]: https://reactjs.org
+[reactNative]: https://reactnative.dev/
+[rs]: https://rocketseat.com.br
+[Rocketseat]:https://github.com/Rocketseat
+[styled-components]:https://styled-components.com/
+
