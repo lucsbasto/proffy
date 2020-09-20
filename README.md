@@ -85,10 +85,10 @@ $ yarn start
 
 - 🔵 [TypeScript][typescript]
 - ⚛️ [React][reactjs]
-<!-- - 🟢 [Node Js][nodejs]
-- ❄️ [Knex][knex]
-- 🐘 [Postgres][postgres]
-- 🔼 [Expo][expo]
+- 🟢 [Node Js][nodejs]
+- ❄️ [Mongoose][mongoose]
+- 🐘 [MongoDB][mongodb]
+<!-- - 🔼 [Expo][expo]
 - ⚛️ [React Native][reactNative]
 - 💅 [Styled-components] -->
 
@@ -110,8 +110,8 @@ $ yarn start
 Feito com ❤️ por Lucas Bastos 👋🏽 [Entre em contato!](https://www.linkedin.com/in/lucsbasto/)
 
 [expo]: https://expo.io/
-[knex]:http://knexjs.org/
-[postgres]: https://www.postgresql.org/
+[mongoose]:https://mongoosejs.com
+[mongodb]: https://www.mongodb.com/
 [nodejs]: https://nodejs.org/en/
 [typescript]: https://www.typescriptlang.org/
 [reactjs]: https://reactjs.org
