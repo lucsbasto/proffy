@@ -86,6 +86,7 @@ $ yarn start
 - 🔵 [TypeScript][typescript]
 - ⚛️ [React][reactjs]
 - 🟢 [Node Js][nodejs]
+- 🐱 [NestJS][nestjs]
 - ❄️ [Mongoose][mongoose]
 - 🐘 [MongoDB][mongodb]
 <!-- - 🔼 [Expo][expo]
@@ -113,6 +114,7 @@ Feito com ❤️ por Lucas Bastos 👋🏽 [Entre em contato!](https://www.linke
 [mongoose]:https://mongoosejs.com
 [mongodb]: https://www.mongodb.com/
 [nodejs]: https://nodejs.org/en/
+[nestjs]: https://nestjs.com/
 [typescript]: https://www.typescriptlang.org/
 [reactjs]: https://reactjs.org
 [reactNative]: https://reactnative.dev/
