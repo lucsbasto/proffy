@@ -107,7 +107,7 @@ $ yarn start
 - Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
 - Faça push para a sua branch: `git push origin minha-feature`.
 
-Feito com ❤️ por Lucas Bastrp 👋🏽 [Entre em contato!](https://www.linkedin.com/in/lucsbasto/)
+Feito com ❤️ por Lucas Bastos 👋🏽 [Entre em contato!](https://www.linkedin.com/in/lucsbasto/)
 
 [expo]: https://expo.io/
 [knex]:http://knexjs.org/
