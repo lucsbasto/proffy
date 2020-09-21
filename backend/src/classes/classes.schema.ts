@@ -11,17 +11,17 @@ export const schema = Schema(
   {
     subject: {
       type: String,
-      required: true,
+      required: true
     },
     teacher: {
       type: Types.ObjectId,
       ref: 'Users',
-      required: true,
+      required: true
     },
     cost: {
       type: Number,
-      required: true,
-    },
+      required: true
+    }
   },
   {
     timestamp: true,
@@ -30,9 +30,9 @@ export const schema = Schema(
         ret.id = ret._id;
         delete ret._it;
         delete ret.__v;
-      },
-    },
-  },
+      }
+    }
+  }
 );
 
 export interface IClasseModel extends Omit<IClasse, '_id'>, Document {}
