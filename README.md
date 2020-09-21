@@ -56,43 +56,20 @@ Instruções de como acessar as rotas e instalação.
 ### ⚒ Instalando <a name = "installing"></a>
 
 ```
-git clone https://github.com/lucsbasto/Proffy.git
-
-# Go into the backend repository
-
-$ cd Proffy
-$ cd backend
-$ yarn
-$ yarn start
-
-# Configure seu .env baseado no .env.example
-$ yarn knex:migrate
-$ yarn start
-# server inicializado
+git clone https://github.com/lucsbasto/proffy-frontend
 
 # 💻 Iniciando com o Front-end
-$ cd frontend
+$ cd proffy-frontend
 $ yarn
 $ yarn start
 
-# 📱 Iniciando com o Mobile 🚧 Em Construção...🚧
-
-$ cd mobile
-$ yarn
-$ yarn start
 ```
 
 ## ⛏️ Tecnologias Utilizadas <a name = "built_using"></a>
 
 - 🔵 [TypeScript][typescript]
 - ⚛️ [React][reactjs]
-- 🟢 [NodeJs][nodejs]
-- 🐱 [NestJS][nestjs]
-- ❄️ [Mongoose][mongoose]
-- 🐘 [MongoDB][mongodb]
-<!-- - 🔼 [Expo][expo]
-- ⚛️ [React Native][reactNative]
-- 💅 [Styled-components] -->
+
 
 ## 👨‍💼 Metas de desenvolvimento <a name = "roadmap"></a>
 
